@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2017.07.17" orientation="isometric" renderorder="left-up" width="50" height="50" tilewidth="64" tileheight="32" nextobjectid="3">
+ <tileset firstgid="1" name="64x64building" tilewidth="64" tileheight="64" tilecount="80" columns="10">
+  <image source="iso-64x64-building.png" width="640" height="512"/>
+ </tileset>
+ <tileset firstgid="81" name="animation" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="animation.png" width="512" height="512"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="128" duration="100"/>
+    <frame tileid="129" duration="100"/>
+    <frame tileid="130" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="128">
+   <animation>
+    <frame tileid="128" duration="100"/>
+    <frame tileid="129" duration="100"/>
+    <frame tileid="130" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="198">
+   <animation>
+    <frame tileid="198" duration="100"/>
+    <frame tileid="199" duration="100"/>
+    <frame tileid="200" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="337" name="image" tilewidth="100" tileheight="100" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="100" height="100" source="mario.png"/>
+  </tile>
+ </tileset>
+ <layer name="wall" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztlDEOwjAMRRO6s7OxIVUMSBng3NyEG8FQS19WkkI72A4/0lPTRK3+UxyXlFIhhBBCCCGEEEIIISQQyUGGvfkTzGU9L+9ZrXsmQ17JXmCuh3XeX7x6HhFctIM+qygeWGfaA32sM271khHdRXvhMzJYc9ZZRnGp3eceE3yn/+PBo7Y3Nejlfhp63Dv7ax6e6mqt1moe3mh5yIjs8QKPy5ceR8CLxyjnoe/HI6hHq9/+i8f5w9WRx2Gjx22Q85gH8TgZe0hP2uthCfuVD96vtsqE
+  </data>
+ </layer>
+ <layer name="wall1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1M0NgCAMhmH07ghuYdRxnNEJtYkHJajhpwLmfRJOJNiPFo0BAAAAAAAAAABAqRrPVSqpbcpdRAKp7rhLdE4oV45aZunsLsfTfolCcoxKtcT4ez/6Y83W3mCu/ViV6vLle98lzpSoZW7euHK0n1cRT7sf+/tZZCl/RjXHVxmE5LD/STX68ztHHht6Ywbn
+  </data>
+ </layer>
+ <layer name="top" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt0zEKgDAMheHoKO5uHkS8/+6NRFToEGioYtP4fxA6FV7bVxEAAAAAAAAAAIBYumTEsAIWub5MjRRKizlfE8lQO4CR9h5Hl0Y5Z/k4TylL/Vv4I2nEtVoK3LTK9Jk9HntWGml7NcVzDq/216K8R5RzwJcdL6ACGQ==
+  </data>
+ </layer>
+ <layer name="top1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1aENAEAIBEFCXd9/XUgs6knIjFl77iIAAAAAAADaGxYALrv0d7k9AAA+KlW9AWs=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1"/>
+ <imagelayer name="Image Layer 1" offsetx="208" offsety="710.667">
+  <image source="mario.png" width="100" height="100"/>
+ </imagelayer>
+</map>

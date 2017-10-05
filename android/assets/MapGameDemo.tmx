@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2017.07.17" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="water" tilewidth="16" tileheight="16" spacing="1" margin="1" tilecount="169" columns="13">
+  <image source="water.jpg" width="225" height="225"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1slOQkEQheH7ICB7YC88EgjIipmVypSAzCRMCpiob+m/vis6kL4lnMW3q3QqJ6muigVBEBMREREREQkZYoR3A71cYo0Ntv88x2/84PdOc7yWqHOUaPn813LI4wkFFFHCM8oXvu1zHiuoooY6GmiihXaoNo4HJM582+c8vuAVb+igix76GIRqk0gh7aEvV2NMMMUMcyywxCpU+4gMsh76cp2tHfb4wCcOOOKErwjz1a4T33Rv26LZkVvgeo9ZZfkec3GNe0y7wlZevnaF5d3qkrHl3Wo5YxeWMxYRidof5rFG6g==
+  </data>
+ </layer>
+</map>
